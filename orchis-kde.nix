@@ -2,8 +2,8 @@
 
 let
   src = builtins.fetchGit {
-    url = "https://github.com/vinceliuice/Orchis-kde";
-    rev = "b2a96919eee40264e79db402b915f926436100ad";
+    url = "https://github.com/codebyallan/Orchis-kde";
+    rev = "9d0383ba3f71b7513635eb6e837123a620edca2e";
   };
 in
 stdenvNoCC.mkDerivation {
