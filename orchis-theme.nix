@@ -1,7 +1,7 @@
 let
   src = builtins.fetchGit {
     url = "https://github.com/codebyallan/orchis-nixos";
-    rev = "af2c6e2fdb6d0fdc4973c6caa2796b1d2b62e5ac";
+    rev = "d026288880d1d13f0d29f98a78cea35e0918e720";
   };
 in
 import "${src}/orchis.nix"
